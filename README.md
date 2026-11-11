@@ -31,5 +31,10 @@ Data analyst with 5 years of experience in healthcare data, automating workflows
   - Reviewing documentations and ingesting source data from various sources APIs for business needs.
  
  ## 🏗️ End-to-End Pipeline Project
- 🎵 [Music Pipeline Project]()
- 
+ 🎵 [Music Pipeline Project](https://github.com/respinar1/music-pipeline)
+
+Music has always interest me and I have always wondered how music carries influence between cultures, not just domestically but also globally, such as American Pop's influence on J-Pop. This project is intended to join my interest of both music and data, and demonstrate my developing data engineering skillset. 
+
+- **Project Goal:** Build an end-to-end ETL pipeline in Python and SQL to compare genre popularity and overlap across geographical regions, using artist and tag metadata from the MusicBrainz REST API.
+- **Built so far:** Docker Compose environment (Python ingestion and PostgreSQL containters, persistent volume, bind-mounted scripts), credential kept out of version control, API client built to meet the source's rate-limit and User-Agent requirements, structured error logging with re-raised expectaions, and a decision log documenting each architectural choice.
+- **Planned:** dbt models (Medallion Method) with uniqueness, null, and referential integrity test; Airflow orchestration with retires, failure alerts, and backfill; migration to BigQuery with partitioning; a dashboard of regional genre trends.
