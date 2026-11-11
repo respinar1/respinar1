@@ -1,4 +1,4 @@
-## 👋 Welcome! My name is Ryan Espinal
+## 👋 Welcome! My name is Ryan
 
 ## 📜 About me
 Data analyst with 5 years of experience in healthcare data, automating workflows with Python and SQL across BigQuery. Working towards shifting into the data engineering space by leveraging my analytical understanding of downstream data to build meaningful data pipelines and architecture. "Curiosity killed the cat, but Satisfaction brought it back". I am simply interested in the challenges associated with the data industry as a whole.
